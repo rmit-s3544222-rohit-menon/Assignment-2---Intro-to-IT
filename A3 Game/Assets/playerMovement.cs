@@ -13,6 +13,6 @@ public class playerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        rb.AddForce(500 * Time.deltaTime, 0, 0);
+        rb.AddForce(1500 * Time.deltaTime, 0, 0);
 	}
 }
